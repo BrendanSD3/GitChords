@@ -9,10 +9,13 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { SongsComponent } from './songs/songs.component';
+import { AddSongComponent } from './add-song/add-song.component';
 
 const appRoutes: Routes = [
   { path: 'page-one', component: PageOneComponent },
   { path: 'page-two', component: PageTwoComponent },
+  { path: 'add-song', component: AddSongComponent },
+
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'songs', component: SongsComponent },
@@ -29,6 +32,7 @@ const appRoutes: Routes = [
     AboutComponent,
     HomeComponent,
     SongsComponent,
+    AddSongComponent,
     
   ],
   imports: [
