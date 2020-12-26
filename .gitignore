@@ -73,4 +73,9 @@ newrelic.ini
 media
 coverage
 
+<<<<<<< HEAD
 *settings.py
+=======
+# settings
+project
+>>>>>>> fbb594c5841adbe4b5e674784069ea6abe777c27
